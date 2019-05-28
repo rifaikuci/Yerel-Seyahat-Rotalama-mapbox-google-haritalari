@@ -4,15 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#556270"
     tools:context=".MainActivity">
 
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/liste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f27281"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="30dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:text="Gitmek İstediğiniz Yerler"
+            android:textColor="#fff"
+
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
     <TextView
+        android:id="@+id/deneme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:gravity="start|right"
+        android:onClick="geri"
+
+        android:paddingLeft="4dp"
+        android:paddingTop="20dp"
+        android:text="&#8592;"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="match_parent"
+        android:layout_height="527dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="5dp"
+
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/rotaOlustur"
+        android:layout_marginLeft="8dp"
+        android:onClick="rota"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="2dp"
+
+        android:paddingTop="4dp"
+
+        android:background="#AA3939"
+
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+
+
+        android:text="Rotayı Oluşturun "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liste"
+        tools:ignore="OnClick" />
 </android.support.constraint.ConstraintLayout>

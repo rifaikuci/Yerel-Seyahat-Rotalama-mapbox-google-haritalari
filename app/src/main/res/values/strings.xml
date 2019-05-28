@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Yerel Seyahat Rotalama</string>
+
+    <string name="slide_1_title">Dijital Müze</string>
+    <string name="slide_1_desc">Burdurda ki güzellikleri bulabi
+    </string>
+
+
+    <string name="slide_2_title">Arkeologlar</string>
+    <string name="slide_2_desc">Araştırmacılar kazı yaparken uygulamayı kullanarak eserle ilgili bilgileri anlık kayıt altına almayı sağlıyor.
+
+    </string>
+
+    <string name="slide_3_title">Kullanıcılar</string>
+    <string name="slide_3_desc">Sizler için hazırladığımız Eser bilgilerini birlikte keşfetmeye ne dersiniz ? </string>
+
+
+    <string name="my_preference">"com.rifaikuci.MyPref"</string>
+    <string name="my_preference_key">"com.rifaikuci.MyPrefKey"</string>
+    <string name="title_activity_yerlerin_gosterimi">Map</string>
+    <string name="title_activity_maps">maps</string>
+
+    <string name="access_token">pk.eyJ1IjoicmlmYWlrdWNpIiwiYSI6ImNqdXM4ZDJsdzN2YjI0NHFqZWszaGh0MXAifQ.pfvQb9d7biTKoAJnBG3Sag</string>
+
+
 </resources>

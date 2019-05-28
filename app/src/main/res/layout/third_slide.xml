@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B75AB"
+    >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bilgi" />
+
+    <TextView
+        android:id="@+id/slide_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="Tarihi Yerlerin Hikayeleri"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yerleri gezerken , gezdiğiniz yerler hakkında bilgi vererek gezdiğiniz yerlerin tarihini öğrenmenizi amaçladık"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/slide_title"
+        android:layout_marginTop="12dp"
+        android:id="@+id/slide_desc"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        />
+
+
+
+</RelativeLayout>
